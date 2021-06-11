@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+#header{
+    background: url('../images/desktop/image-hero.jpg')  center/cover;
+    height: 90vh;
+    padding:0 10% 0 10%;
+}
+#navigation{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem; 
+    padding: 3rem 0 12rem 0;
+}
+#navigation-links{
+    display: flex;  
+}
+#navigation-links div{
+padding: 0 10px 0 10px;
+}
+ul li{
+    list-style-type: none;
+}
+a{
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+}
+#headline{
+    color: hsl(0, 0%, 100%); 
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3rem;
+    text-transform: uppercase;
+    width: 25rem;
+    border: 1px solid hsl(0, 0%, 100%);
+    padding: 1rem;
+}
+#leader{
+    display: flex;
+    padding-left: 10%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    position: relative;
+    bottom: 0px;  
+}
+#leader-text-text{
+     color: hsl(0, 0%, 41%);
+    font-family: 'Alata', sans-serif;
+}
+#leader-text-headline{
+    color: hsl(0, 0%, 0%);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase; 
+}
+#leader-text{
+     background-color: white;
+     position: relative;
+     padding-left: 5rem; 
+     padding-top: 5rem;
+     margin-top: 13rem;
+     z-index: 1;
+     left: -10rem;
+}
+
+#footer{
+   display: flex;
+   justify-content: space-between;
+   padding:2% 10% 2rem 10%;
+   background-color: hsl(0, 0%, 0%);
+   color: hsl(0, 0%, 100%);
+}
+#footer-links{
+    display: flex;
+    font-size: 1rem;
+    justify-content: space-between;
+}
+#footer-icons{
+    display: flex;
+    justify-content: flex-end;
+}
+#footer-links div{
+    padding-top: 1.2rem;
+    padding-right:2.5rem;
+}
+#footer-icons div{
+    padding-bottom: 1.2rem;
+    padding-right:0.5rem;
+}
+#creations{
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-bottom: 10%;
+}
+#creations-header{
+    display: flex;
+    justify-content: space-between;
+    color: hsl(0, 0%, 0%);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase; 
+    padding-bottom: 2rem;
+}
+#creations-header-button{
+  background-color: white;
+  border: 2px solid hsl(0, 0%, 55%);
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  padding: 0 1rem 0 1rem;
+  color: black;
+}
+#creations-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+}
+.img-text{
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    text-transform: uppercase;
+    color: hsl(0, 0%, 100%); 
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5rem;
+    width: 8rem;
+}
+.creation{
+ width: 250px;
+  height: 350px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  position: relative;
+}
+#creation-1{
+      background-image: url("../images/desktop/image-deep-earth.jpg");
+  background-size: 100% 100%;
+ 
+}
+#creation-2{
+      background-image: url("../images/desktop/image-night-arcade.jpg");
+  background-size: 100% 100%;
+}
+#creation-3{
+      background-image: url("../images/desktop/image-soccer-team.jpg");
+  background-size: 100% 100%;
+}
+#creation-4{
+      background-image: url("../images/desktop/image-pocket-borealis.jpg");
+  background-size: 100% 100%;
+}
+#creation-5{
+      background-image: url("../images/desktop/image-grid.jpg");
+  background-size: 100% 100%;
+}
+#creation-6{
+      background-image: url("../images/desktop/image-fisheye.jpg");
+  background-size: 100% 100%;
+}
+#creation-7{
+      background-image: url("../images/desktop/image-from-above.jpg");
+  background-size: 100% 100%;
+}
+#creation-8{
+      background-image: url("../images/desktop/image-curiosity.jpg");
+  background-size: 100% 100%;
+}
+#toggle-button{
+    display: none;
+    position: absolute;
+    top: 50px;
+    right:30px;
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  #tasks-input{
+    width: 100%;  
+}
+#tasks-input-form{
+   font-weight: bold;
+    width: 85%;
+}
+#tasks-list{
+  width: 90%;
+}
+.task{
+    width: 180px;
+}
+.close{
+    right: -185px;
+    top: -25;
+}
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+#title-img{
+ width: 50%;
+}
+#tasks-input{
+    width: 90%;  
+}
+#tasks-input-form{
+   font-weight: bold;
+    width: 85%;
+}
+#tasks-list{
+  width: 90%;
+}
+.task{
+    width: 180px;
+}
+.close{
+    right: -185px;
+    top: -25px;
+}
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+   #navigation-links{
+       display: none;
+   }
+   #header{
+    background: url('../images/mobile/image-hero.jpg')  center/cover;
+    height: 90vh;
+    padding:0 5% 0 5%;
+  }
+  #toggle-button{
+      display: block;
+  }
+}
+@media (min-width: 240px) and (max-width: 480px) {
+  
+  /* CSS */   
+#title-img{
+ width: 70%;
+}
+   #tasks-input{
+    width: 100%;  
+}
+#tasks-input-form{
+   font-weight: bold;
+    width: 95%;
+}
+#tasks-list{
+  width: 100%;
+    padding: 2%;
+ 
+}
+.task{
+    width: 90%;
+       
+}
+.close{
+    right: -95%;
+    top: -20px;
+}  
+  
+}
