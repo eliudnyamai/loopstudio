@@ -1,167 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="css/styles.css">
-  <link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap"
+    rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Loopstudios landing page</title>
 
 </head>
-<body>
+
+<body onresize="changeDisplay()">
   <header id="header">
     <div id="navigation">
-         <div id="logo">
-           <img src="images/logo.svg" alt="logo">
-           <div onclick="showMenu()" id="toggle-button">
-             <img src="images/icon-hamburger.svg" alt="" srcset="">
-             
-            </div>
-         </div>
-        <ul >
-          <div id="navigation-links">
-            <div>
-          <li>
-            <a href="#">About</a>
-          </li>
-            </div>
-            <div>
-              <li>
-                <a href="#">Careers</a>
-              </li>
-             </div>
-         <div>
-          <li>
-            <a href="#">Events</a>
-          </li>
-         </div>
-           <div>
-           <li>
-            <a href="#">Products</a>
-          </li>
-           </div>
+      <div id="logo">
+        <img src="images/logo.svg" alt="logo">
+        <div onclick="showMenu()" id="toggle-button">
+          <img src="images/icon-hamburger.svg" alt="" srcset="">
+
+        </div>
+      </div>
+      <ul>
+        <div id="navigation-links">
           <div>
             <li>
-            <a href="#">Support</a>
-          </li>
+              <a href="#">About</a>
+            </li>
           </div>
+          <div>
+            <li>
+              <a href="#">Careers</a>
+            </li>
           </div>
-        
-        </ul> 
+          <div>
+            <li>
+              <a href="#">Events</a>
+            </li>
+          </div>
+          <div>
+            <li>
+              <a href="#">Products</a>
+            </li>
+          </div>
+          <div>
+            <li>
+              <a href="#">Support</a>
+            </li>
+          </div>
+        </div>
+
+      </ul>
     </div>
-      <div id="headline">
-         Immersive experiences that deliver
-      </div> 
+    <div id="headline">
+      Immersive experiences that deliver
+    </div>
   </header>
   <section id="leader">
-      <div id="leader-img">
-        <img id="leader-img-div" src="images/desktop/image-interactive.jpg" alt="" srcset="">
-      </div>
-      <div id="leader-text">
-        <h2 id="leader-text-headline">The leader in interactive VR</h2>
-        <p id="leader-text-text">
-           <br>
-            Founded in 2011, Loopstudios has been producing world-class virtual reality 
-            projects for some of the best companies around the globe. Our award-winning 
-            creations have transformed businesses through digital experiences that bind 
-            to their brand.
-        </p>
-      </div>
+    <div id="leader-img">
+      <img id="leader-img-div" src="images/desktop/image-interactive.jpg" alt="" srcset="">
+    </div>
+    <div id="leader-text">
+      <h2 id="leader-text-headline">The leader in interactive VR</h2>
+      <p id="leader-text-text">
+        <br>
+        Founded in 2011, Loopstudios has been producing world-class virtual reality
+        projects for some of the best companies around the globe. Our award-winning
+        creations have transformed businesses through digital experiences that bind
+        to their brand.
+      </p>
+    </div>
   </section>
   <section id="creations">
     <div id="creations-header">
-       <h2>Our creations</h2> 
-     <button id="creations-header-button1">See all</button>
+      <h2>Our creations</h2>
+      <button id="creations-header-button1">See all</button>
     </div>
     <div id="creations-gallery">
-            <div class="creation" id="creation-1">
-              <div class="img-text">Deep Earth</div>
-            </div>
-            <div class="creation"  id="creation-2">
-              <div class="img-text">Night Arcade</div>
-            </div>
-            <div class="creation"  id="creation-3">
-              <div class="img-text">Soccer Team</div>
-            </div>
-            <div class="creation"  id="creation-4">
-              <div class="img-text">Pocket Borealis</div>
-            </div>
-            <div class="creation"  id="creation-5">
-              <div class="img-text">The Grid</div>
-            </div>
-            <div class="creation"  id="creation-6">
-              <div class="img-text">The Fisheye</div>
-            </div>
-            <div class="creation"  id="creation-7">
-              <div class="img-text">Make It Above VR</div>
-            </div>
-            <div class="creation"  id="creation-8">
-              <div class="img-text">The curiosity</div>
-            </div>
-          
+      <div class="creation" id="creation-1">
+        <div class="img-text">Deep Earth</div>
+      </div>
+      <div class="creation" id="creation-2">
+        <div class="img-text">Night Arcade</div>
+      </div>
+      <div class="creation" id="creation-3">
+        <div class="img-text">Soccer Team</div>
+      </div>
+      <div class="creation" id="creation-4">
+        <div class="img-text">Pocket Borealis</div>
+      </div>
+      <div class="creation" id="creation-5">
+        <div class="img-text">The Grid</div>
+      </div>
+      <div class="creation" id="creation-6">
+        <div class="img-text">The Fisheye</div>
+      </div>
+      <div class="creation" id="creation-7">
+        <div class="img-text">Make It Above VR</div>
+      </div>
+      <div class="creation" id="creation-8">
+        <div class="img-text">The curiosity</div>
+      </div>
+
     </div>
     <button id="creations-header-button2">See all</button>
   </section>
   <footer id="footer">
     <!-- ########################3# -->
-     <div>
-       <img src="images/logo.svg" alt="" srcset="">
-       <ul >
-          <div id="footer-links">
-            <div>
-          <li>
-            <a href="#">About</a>
-          </li>
-            </div>
-         <div>
-          <li>
-            <a href="#">Events</a>
-          </li>
-         </div>
-           <div>
-           <li>
-            <a href="#">Products</a>
-          </li>
-           </div>
+    <div>
+      <img src="images/logo.svg" alt="" srcset="">
+      <ul>
+        <div id="footer-links">
           <div>
             <li>
-            <a href="#">Support</a>
-          </li>
+              <a href="#">About</a>
+            </li>
           </div>
+          <div>
+            <li>
+              <a href="#">Events</a>
+            </li>
           </div>
-        
-        </ul> 
-     </div>
-  
+          <div>
+            <li>
+              <a href="#">Products</a>
+            </li>
+          </div>
+          <div>
+            <li>
+              <a href="#">Support</a>
+            </li>
+          </div>
+        </div>
+
+      </ul>
+    </div>
+
     <!-- ################ -->
 
     <div>
       <div id="footer-icons">
-          <div>
-              <a href=""><img src="images/icon-facebook.svg" alt="" srcset=""></a>
-            </div>
-            <div>
-              <a href=""><img src="images/icon-instagram.svg" alt="" srcset=""></a>
-            </div>
-            <div>
-              <a href=""><img src="images/icon-pinterest.svg" alt="" srcset=""></a>
-            </div>
-            <div>
-              <a href=""><img src="images/icon-twitter.svg" alt="" srcset=""></a>
-            </div>
-      </div>
         <div>
-            © 2021 Loopstudios. All rights reserved.
+          <a href=""><img src="images/icon-facebook.svg" alt="" srcset=""></a>
         </div>
-     </div>
+        <div>
+          <a href=""><img src="images/icon-instagram.svg" alt="" srcset=""></a>
+        </div>
+        <div>
+          <a href=""><img src="images/icon-pinterest.svg" alt="" srcset=""></a>
+        </div>
+        <div>
+          <a href=""><img src="images/icon-twitter.svg" alt="" srcset=""></a>
+        </div>
+      </div>
+      <div>
+        © 2021 Loopstudios. All rights reserved.
+      </div>
+    </div>
   </footer>
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
   <script src="script.js"></script>
 </body>
+
 </html>
