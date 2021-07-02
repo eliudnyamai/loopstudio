@@ -25,6 +25,9 @@
 #navigation-links div{
 padding: 0 10px 0 10px;
 }
+#navigation-links div:hover{
+    border-bottom: 5px solid white;
+    }
 ul li{
     list-style-type: none;
 }
@@ -97,6 +100,14 @@ a{
     padding: 0 1.5rem 0 1.5rem;
     color: black;
   }
+  #creations-header-button1:hover{
+    background-color: black;
+    color: white;
+  }
+  #creations-header-button2:hover{
+    background-color: black;
+    color: white;
+  }
   #creations-header-button2{
       display: none;
       background-color: white;
@@ -122,6 +133,9 @@ a{
       font-size: 1.5rem;
       width: 8rem;
   }
+  .img-text:hover{
+      color: black;
+  }
   .creation{
     width: 220px;
     height: 350px;
@@ -129,6 +143,7 @@ a{
     margin-bottom: 10px;
     position: relative;
   }
+ 
   #creation-1{
         background-image: url("../images/desktop/image-deep-earth.jpg");
         background-size: 100% 100%;
@@ -181,6 +196,9 @@ a{
 #footer-links div{
     padding-top: 1.2rem;
     padding-right:2.5rem;
+}
+a:hover{
+    border-bottom: 5px solid white;
 }
 #footer-icons div{
     padding-bottom: 1.2rem;
